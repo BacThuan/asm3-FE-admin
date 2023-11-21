@@ -1,0 +1,102 @@
+.chatRoom {
+  width: 100%;
+  display: flex;
+}
+
+.chatContainer {
+  width: 85%;
+  display: flex;
+}
+.chatUser {
+  width: 25%;
+  border-right: 0.5px solid rgb(230, 227, 227);
+  margin-right: 10px;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.chatItem {
+  position: relative;
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
+  background-color: aliceblue;
+  padding-left: 10px;
+}
+.chatItem p {
+  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+  left: 70px;
+  width: 150px;
+  word-wrap: break-word;
+}
+
+.chatItem:hover {
+  background-color: rgb(187, 187, 187);
+}
+.chatactive {
+  background-color: rgb(187, 187, 187);
+}
+
+.chatContent {
+  width: 100%;
+}
+.admin {
+  display: flex;
+  font-style: italic;
+  color: white;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.admin div {
+  background-color: rgb(0, 115, 255);
+  padding: 5px 10px;
+  max-width: 300px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.customer {
+  font-style: italic;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.customer div {
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  max-width: 300px;
+}
+.btn {
+  height: 50px;
+  width: 70px;
+  display: block;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  margin-left: 5px;
+}
+.btn:hover {
+  background-color: rgb(180, 193, 230);
+}
+
+.contentArea {
+  height: 500px;
+  overflow: auto;
+}
+.sendChat {
+  display: flex;
+}
+.sendChat textarea {
+  margin-left: 10px;
+  width: 80%;
+}

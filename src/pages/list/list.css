@@ -1,0 +1,7 @@
+.listData {
+  display: flex;
+  width: 100%;
+}
+.listDataContainer {
+  flex: 6;
+}
